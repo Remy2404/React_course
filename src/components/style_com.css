@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header Styles */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Home Page Styles */
+.featured-products .card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.featured-products .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Page Styles */
+.about-section {
+  margin-bottom: 3rem;
+}
+
+/* Blog Page Styles */
+.blog-post .card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-post .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
